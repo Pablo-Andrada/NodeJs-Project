@@ -5,12 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><%=title %></title>
 <%-include('partials/head') %>
+<link rel="stylesheet" href="../public/css/main.css">
 </head>
 <body>
 
     <%- include('partials/navigation.ejs') %>
 
-    <h1>Hola Mundo!!</h1>
+<header class="container  d-flex justify-content-center aling-item-center">
+<div class="d-flex flex-column justify-content-center aling-item-center ">
+   <!-- <img src="/img/SoftSolutions_Logo.jpg" alt="" class="w-50 h-50"> --> 
+    <h1 class="display-1 my-1  fw-bold">Soft_Solutions</h1>
+    <a href="/about" class="btn btn-primary w-25"></a>
+</div>
+</header>
 
     <%- include('partials/footer.ejs') %>
 
